@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Press Start 2P";
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+header {
+    background-color: #5300C8;
+    padding: 30px;
+    border-bottom: 2px solid #5300C8;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+section {
+    flex: 1;
+    margin: 10px;
+}
+
+#adicionar-produto, #meus-produtos {
+    border: 1px solid #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#adicionar-produto h2, #meus-produtos h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"], form input[type="number"], form input[type="file"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #03318C;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+form .buttons {
+    justify-content: space-around
+}
+
+form .btn {
+    padding: 10px 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+form .Azul {
+    background-color: #03318C;
+    color: white;
+}
+
+form .limpar {
+    background-color: white;
+    color: black;
+    border: 1px solid #03318C;
+}
+
+#lista-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #0c0c0c;
+    border-radius: 15px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    background-color: #5300C8;
+}
+.info {
+    display: flex;
+    justify-content: space-between;    
+    align-items: normal;    
+    padding: 5px;
+    width: 100%;    
+}
+.produto img {
+    max-width: 100%;
+    border-bottom: 1px solid #5300C8;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.produto p {
+    width: 100%;
+    font-size: 0.8vw;
+    margin-bottom: 5px;
+    text-align: left;
+    color: beige;
+}
+
+.produto span {
+    font-size: 0.8vw;
+    color: #ffffff;
+}
+
+.produto button.apagar {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);    
+}
+
+h1,
+p {
+    color: rgb(255, 255, 255);
+    border:  none;
+    outline: none;
+}
+footer {
+    background-color: #5300C8;
+    padding: 40px;
+    text-align: center;
+    font-family: "monserrat";
+}
+/*Tablet*/
+@media (min-width: 768px) {
+
+    .produto span {
+        font-size: 3vw;
+        color: #ffffff;
+    }
+    
+    }
+    
+/*Mobile*/
+@media (min-width: 425px) {
+    
+    .produto span {
+        font-size: 0.8rem;
+        color: #ffffff;
+    }
+    .produto p {
+        width: 100%;
+        font-size: 0.8rem;
+        
+    }
+    }
+    

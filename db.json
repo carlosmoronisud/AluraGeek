@@ -1,0 +1,59 @@
+{
+    "produtos": [
+      {
+        "name": "Boneco mestre Yoda",
+        "price": "699",
+        "image": "./imagens/boneco-mestre-yoda.jpg",
+        "id": 1
+      },
+      {
+        "name": "Caneca Star Wars 350ml",
+        "price": "50",
+        "image": "./imagens/caneca-st.png",
+        "id": 2
+      },
+      {
+        "name": "Caneca C3PO 350ml",
+        "price": "50",
+        "image": "./imagens/Caneca-C3PO-350ml.jpg",
+        "id": 3
+      },
+      {
+        "name": "Espada Jedi",
+        "price": "590",
+        "image": "./imagens/Espada-Jedi.jpg",
+        "id": 4
+      },
+      {
+        "name": "Casaco Star Wars",
+        "price": "299",
+        "image": "./imagens/Casaco-Star-Wars.jpg",
+        "id": 5
+      },
+      {
+        "name": "Boneco Darth Vader",
+        "price": "790",
+        "image": "./imagens/Boneco-Darth-Vader.jpg",
+        "id": 6
+      },
+      {
+        "name": "Bone New Era Darth Vader",
+        "price": "65",
+        "image": "./imagens/Bone-New-Era-Star-Wars.jpg",
+        "id": 7
+      },
+      {
+        "name": "Boneco Luke Skywalker",
+        "price": "830",
+        "image": "./imagens/Boneco-Luke-Skywalker.jpg",
+        "id": 8
+      },
+      {
+        "name": "Boneco R2 D2",
+        "price": "620",
+        "image": "./imagens/Boneco-R2-D2.jpg",
+        "id": 9
+      }
+    ]
+  }
+  

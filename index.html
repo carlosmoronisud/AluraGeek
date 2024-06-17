@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><img src="icon/Property 1=White.png" srcset=""></h1>
+    </header>
+    <main>
+        <section id="meus-produtos">
+            <h2>MEUS PRODUTOS:</h2>
+            <div id="lista-produtos"></div>
+        </section>
+        <section id="adicionar-produto">
+            <h2>ADICIONAR<br>PRODUTO:</h2>
+            <form id="produto-form">               
+                <input type="text" id="nome" placeholder="nome..." required>                              
+                <input type="number" id="preco" placeholder="valor..." required>       
+                <input type="file" id="imagem" accept="imagem/*" required>                
+                <div class="buttons">
+                    <button type="submit" class="btn Azul">Guardar</button>
+                    <button type="reset" class="btn limpar">Limpar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <img src="icon/Property 1=White.png" srcset="">
+        <p>Desenvolvido por Carlos Moroni Garcia</p>
+        <p>ALURA - 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
