@@ -44,7 +44,7 @@ function carregarProdutos() {
                     <img src="${prod.image}" alt="${prod.name}">
                     <p>${prod.name}</p>
                     <div class="info"><span>$${prod.price}</span>
-                    <button class="apagar"><img src="icon/Icono.png" alt="apagar"></button></div>
+                    <button class="apagar"><img src="Icon/Icono.png" alt="apagar"></button></div>
                 `;
                 listaProdutos.appendChild(produto);
 
